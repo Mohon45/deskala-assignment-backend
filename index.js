@@ -48,7 +48,7 @@ async function run() {
       res.send(result);
     });
 
-    // update a single candidate
+    // update a candidate
 
     app.put("/candidates/update/:id", async (req, res) => {
       const id = req.params.id;
